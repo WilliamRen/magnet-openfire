@@ -2,8 +2,8 @@
 
 # Deploy openfire.jar to local maven repository
 CURDIR=`pwd`
-ARTIFACT_VERSION="1.0.1"
-FILE="${CURDIR}/target/openfire/lib/openfire.jar" 
+ARTIFACT_VERSION="1.0.2-SNAPSHOT"
+FILE="${CURDIR}/target/openfire/lib/openfire.jar"
 
 cd ${CURDIR}/target
 zip -r mmx-openfire.zip openfire
